@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Algerian;
+}
+h2 {
+    margin-left: 1000px;
+    
+}
+#box1{
+    height: 500px;
+    display:block;
+    width: 900px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.comment-text{
+    font-size: 40px;
+    font-weight: 800;
+    transform: skewX(-50deg);
+    margin-left: 20%;
+    margin-top: 2px;
+}
+.comment-text2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 18%;
+    margin-top: 2px;
+    color: black;
+}
+.comment-text3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 57%;
+    transform: skewX(-50deg);
+    margin-top: -40px;
+    color: black;
+}
+.slant-box{
+    width: 300px;
+    height: 100px;
+    background-color: peru;
+    margin-top: 10%;
+    transform: skewX(50deg);
+    margin-left: 10%; 
+}
+.rec-box{
+    width: 300px;
+    height: 100px;
+    background-color: peru;
+    margin-top: 10%;
+    margin-left: -70px;
+}
+.text{
+    font-size: 18px;
+}
+.text-box{
+    width: 70%;
+    height: 100px;
+    border: 10px solid gray;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.text-box2{
+    width: 70%;
+    height: 100px;
+    border: 10px solid gray;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 29%;
+}
+.home-box{
+    width: 300px;
+    height: 70px;
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-left: 40%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-text{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+#top_button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    font-size: 40px;
+} 

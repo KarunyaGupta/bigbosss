@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+}
+#top_button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    font-size: 40px;
+} 
+#top_bar{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+.line_1{
+    width: 7px;
+    height: 100px;
+    background-color: black;
+    margin-left: 6%;
+}
+.line_2{
+    width: 7px;
+    height: 120px;
+    background-color: black;
+    margin-left: 6%;
+}
+.circle_1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-left: 2.6%;
+    margin-top: -1.3%;
+    
+}
+.circle_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-left: 2.6%;
+    margin-top: 0%;
+}
+.font_style{
+    margin-top: 11%;
+    font-weight: 1000;
+    font-size: 35px;
+    text-align: center;
+}
+#grad{
+    background-image: linear-gradient(white,grey);
+    height: 777px;
+    /* position: fixed; 
+    width: 100%; */
+}
+#grad2{
+    background-image: linear-gradient(grey,grey);
+    height: 890px;
+    /* position: fixed; 
+    width: 100%; */
+}
+#vote_head{
+    margin-top: 12%;
+    margin-left: 7%;
+    font-size: 45px;
+    color:black;
+}
+#line{
+    width: 20px;
+    height: 10px;
+    background-color:slategrey;
+    margin-left: 7.5%;
+    opacity: 0;
+}
+#vote_head:hover + #line{
+    width: 725px;
+    transition-property: all;
+    transition-duration: 2s;
+    opacity: 1;
+}
+
+.box-line1{
+    width: 300px;
+    height: 300px;
+    /* background-color: black; */
+    border: 8px solid black;
+    margin-top: -100px;
+    border-radius: 50%;
+    margin-left: 10%;
+    
+}
+.box-line2{
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+    border: 8px solid black;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    /* margin-top: -100%; */
+    border-radius: 50%;
+    /* margin-left: 10%; */
+}
+.button{
+    width: 150px;
+    height: 60px;
+    background-color: grey;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 4%;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: 1000;
+    color:mintcream;
+    cursor: pointer;
+}
+.button:hover{
+    border: 4px solid black;
+    box-shadow: 2px 2px 5px white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#voting-text{
+    font-size: 60px;
+    margin-top: 3%;
+    margin-left: 0.5%;
+    text-decoration: underline;
+    color: dimgray;
+}
+h3{
+    font-size: 20px;
+    margin-left: 1%;
+    display: flex;
+    margin-top: 1%;
+    color: darkgray;
+}
+.steps{
+    font-size: 20px;
+    color: black;
+    margin-left: 1%;
+    font-weight: 1000;
+    margin-top: 2%;
+}
+.home-box{
+    width: 300px;
+    height: 70px;
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-left: 40%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-text{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 900;
+}
